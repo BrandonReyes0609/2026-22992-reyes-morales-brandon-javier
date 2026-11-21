@@ -157,6 +157,7 @@ En una instalación nueva el sitio aparece con el nombre por defecto "AutoEscuel
 /demo       Video demostrativo (demo.mp4)
 /docs       Informe final y consentimiento firmado
 /src        Código fuente (proyecto Laravel)
+  /Material Videos finales de las lecciones y documento con el contenido cargado
 README.md
 ```
 
@@ -179,6 +180,13 @@ Las capturas de pantalla del sistema se encuentran en [`/capturas`](capturas/).
 | [11](capturas/captura-11.png) | Gestión de usuarios y roles |
 | [12](capturas/captura-12.png) | Configuración CMS: nombre, logo, colores y textos |
 | [13](capturas/captura-13.png) | Perfil del usuario |
+| [14](capturas/captura-14.png) | Panel principal del estudiante con su progreso y accesos rápidos |
+| [15](capturas/captura-15.png) | Módulos del curso vistos por el estudiante |
+| [16](capturas/captura-16.png) | Lección con sus fuentes legales, botón para marcarla como completada y video de apoyo |
+| [17](capturas/captura-17.png) | Simulador de preguntas de un módulo |
+| [18](capturas/captura-18.png) | Resultado del simulador con respuestas correctas y retroalimentación |
+| [19](capturas/captura-19.png) | Panel del gestor de contenido |
+| [20](capturas/captura-20.png) | Gestión de módulos desde el rol de gestor |
 
 ![Inicio de sesión de EduAuto](capturas/captura-01.jpg)
 
@@ -191,6 +199,28 @@ El video demostrativo se encuentra en [`/demo/demo.mp4`](demo/demo.mp4).
 El informe final del proyecto está disponible en [`/docs/informe_final.pdf`](docs/informe_final.pdf).
 
 El consentimiento de uso de foto y video firmado se encuentra en [`/docs/consentimiento_firmado.pdf`](docs/consentimiento_firmado.pdf).
+
+## Material de las lecciones
+
+En [`/src/Material`](src/Material/) están los recursos que se cargaron en la plataforma:
+
+- [`EduAuto_contenido_y_configuracion.docx`](src/Material/EduAuto_contenido_y_configuracion.docx): el texto de los 5 módulos, las 10 lecciones y las 31 preguntas, además de la configuración del CMS.
+- [`/lecciones`](src/Material/lecciones/): los videos finales de cada lección, editados en DaVinci Resolve.
+
+| Módulo | Lección | Videos |
+|---|---|---|
+| 1. Licencia tipo C, obligaciones y responsabilidad del conductor | 1.1 Qué autoriza la licencia tipo C y requisitos del conductor | [leccion_1_1](src/Material/lecciones/leccion_1_1/) |
+| | 1.2 Obligaciones, prohibiciones y actuación ante emergencias | [leccion_1_2](src/Material/lecciones/leccion_1_2/) |
+| 2. El tránsito y sus usuarios | 2.1 El tránsito como sistema y sus elementos | [leccion_2_1](src/Material/lecciones/leccion_2_1/) |
+| | 2.2 Peatones, zonas escolares y seguridad de pasajeros | [leccion_2_2](src/Material/lecciones/leccion_2_2/) |
+| 3. La vía pública | 3.1 Qué es la vía pública y cuáles son sus partes | [leccion_3_1](src/Material/lecciones/leccion_3_1/) |
+| 4. Señalización vial | 4.1 Prioridad entre señales y tipos de señalización | [leccion_4_1](src/Material/lecciones/leccion_4_1/) |
+| | 4.2 Señales verticales: reglamentarias, preventivas e informativas | [leccion_4_2](src/Material/lecciones/leccion_4_2/) |
+| | 4.3 Señalización horizontal y semáforos | [leccion_4_3](src/Material/lecciones/leccion_4_3/) |
+| 5. Conducción segura y reglas viales | 5.1 Preparación, maniobras y obligación de advertir | [leccion_5_1](src/Material/lecciones/leccion_5_1/) |
+| | 5.2 Rebase, incorporación, cambio de carril y puntos ciegos | [leccion_5_2](src/Material/lecciones/leccion_5_2/) |
+
+Estos archivos son una copia de referencia. Para que aparezcan en la plataforma se suben desde el panel del gestor, en la edición de cada lección.
 
 ## Autores
 
